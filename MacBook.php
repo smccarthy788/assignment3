@@ -2,13 +2,14 @@
   // this file will extend PArentClass.php
 
   class MacBook extends Computer {
-      private const $brand = "Apple";
+      private $brand;
       private $model;
       private $processor;
       private $ram;
       private $storage;
 
       public function __construct($model, $processor, $ram, $storage){
+        $this->brand = "Apple";
         $this->model = $model;
         $this->processor = $processor;
         $this->ram = $ram;

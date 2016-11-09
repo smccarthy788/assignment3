@@ -1,1 +1,7 @@
 /*styles for assignment 3*/
+
+article {
+	text-align: justify;
+	font-size: 15px;
+	margin: 20% 20% 20% 20%;
+}
