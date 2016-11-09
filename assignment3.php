@@ -1,6 +1,6 @@
 <?php
-  include "./Computer.php"
-  include "./MacBook.php"
+  include "./Computer.php";
+  include "./MacBook.php";
 
   $dell = new Computer("Dell", "XPS", "i5", "4GB", "500GB HDD");
   $mac = new MacBook("Pro", "i7", "16GB", "1TB SSD")
